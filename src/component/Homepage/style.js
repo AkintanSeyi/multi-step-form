@@ -395,8 +395,7 @@ export const AddOns_InnerDiv_CheckDiv = styled("div")({
   alignItems: "center",
   justifyContent: "center",
   "@media (max-width : 29.75em)": {
-    width: "49.9px",
-    height: "49.9px",
+
   },
 });
 
