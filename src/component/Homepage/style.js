@@ -268,9 +268,9 @@ export const AddOns_InnerDiv_CheckInput = styled("input")({
   borderRadius: "5px",
   cursor: "pointer",
   "@media (max-width : 29.75em)": {
-    height: "100%",
+    height: "40%",
 
-    padding: "100%",
+    padding: "40%",
   },
 });
 
