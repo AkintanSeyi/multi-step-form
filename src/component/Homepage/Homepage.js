@@ -156,6 +156,14 @@ const Homepage = () => {
 
   return (
     <Style.Homepage>
+      <>
+        <Style.Homepage_SecondSection_1_Header>
+          Multi-Step-Form
+        </Style.Homepage_SecondSection_1_Header>
+        <Style.Homepage_SecondSection_1_para style={{ marginTop: "-10px" }}>
+          made by patriciason
+        </Style.Homepage_SecondSection_1_para>
+      </>
       <Style.Homepage_Holder>
         <Style.Homepage_FirstSection>
           <Style.Homepage_FirstSectionHolder>
@@ -295,12 +303,12 @@ const Homepage = () => {
                     >
                       previous
                     </Style.Homepage_SecondSection_Holder_PreviousButton>
-                    <Style.Homepage_SecondSection_Holder_Button
+                    <Style.Homepage_SecondSection_Holder_FirstButton
                       onSubmit={handleSubmit(submitNextButton)}
                       type="submit"
                     >
                       next step
-                    </Style.Homepage_SecondSection_Holder_Button>
+                    </Style.Homepage_SecondSection_Holder_FirstButton>
                   </Style.Homepage_SecondSection_Holder_Button_Div>
                 </Form>
               </>

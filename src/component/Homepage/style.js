@@ -7,6 +7,7 @@ export const Homepage = styled("div")({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  flexDirection: "column",
   backgroundColor: "rgb(236, 243, 245)",
 });
 
@@ -204,6 +205,7 @@ export const AddOns_Div = styled("div")({
   padding: "10px",
   "@media (max-width : 45em)": {
     width: "90%",
+    height: "83%",
   },
   "@media (max-width : 37.5em)": {
     width: "94%",
@@ -251,6 +253,9 @@ export const AddOns_InnerDiv = styled("div")({
   alignItems: "center",
   justifyContent: "space-between",
   padding: "10px",
+  "@media (max-width : 29.4em)": {
+    height: "68px",
+  },
   "@media (max-width : 23.75em)": {
     height: "55px",
     padding: "5px",
@@ -262,6 +267,10 @@ export const AddOns_InnerDiv_CheckInput = styled("input")({
   height: "40%",
   borderRadius: "5px",
   cursor: "pointer",
+  "@media (max-width : 23.75em)": {
+    height: "60%",
+    padding: "60%",
+  },
 });
 
 export const AddOns_InnerDiv_DecriptionDivPara = styled("h3")({
@@ -503,16 +512,69 @@ export const Homepage_SecondSection_Holder_Button = styled("button")({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
+  "@media (max-width : 45em)": {
+    bottom: "-8.5%",
+    position: "absolute",
+    right: "10%",
+  },
   "@media (max-width : 37.5em)": {
     fontSize: "11.5px",
   },
   "@media (max-width : 29.4em)": {
-    position: "fixed",
-    bottom: "12%",
     right: "10%",
+    bottom: "-9.5%",
   },
   "@media (max-width : 23.75em)": {
-    bottom: "3.7%",
+    height: "33px",
+  },
+});
+
+export const Homepage_SecondSection_Holder_FirstButton = styled("button")({
+  width: "80px",
+  backgroundColor: "blue",
+  height: "35px",
+  borderRadius: "6px",
+  border: "none",
+  outline: "none",
+  fontWeight: "bold",
+  fontSize: "12.5px",
+  textTransform: "capitalize",
+  padding: "10px",
+  cursor: "pointer",
+  color: "white",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  "@media (max-width : 45em)": {
+    bottom: "-65.5%",
+    position: "absolute",
+
+    right: "6%",
+  },
+  "@media (max-width : 37.5em)": {
+    fontSize: "11.5px",
+  },
+  "@media (max-width : 29.4em)": {
+    // bottom: "-73.5%",
+    bottom: "-16.5%",
+  },
+
+  "@media (max-width :26.875em)": {
+    // bottom: "-73.5%",
+    bottom: "-36.5%",
+  },
+
+  "@media (max-width :26em)": {
+    // bottom: "-73.5%",
+    bottom: "-29.5%",
+  },
+  "@media (max-width :24.375em)": {
+    // bottom: "-73.5%",
+    bottom: "-20.5%",
+  },
+  "@media (max-width : 23.75em)": {
+    // bottom: "3.7%",
+    bottom: "-16.5%",
     height: "33px",
   },
 });
@@ -533,16 +595,18 @@ export const Homepage_SecondSection_Holder_PreviousButton = styled("button")({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
+  "@media (max-width : 45em)": {
+    bottom: "-8.5%",
+    position: "absolute",
+  },
   "@media (max-width : 37.5em)": {
     fontSize: "11.5px",
   },
   "@media (max-width : 29.4em)": {
-    position: "fixed",
-    bottom: "12%",
     left: "10%",
+    bottom: "-9.5%",
   },
   "@media (max-width : 23.75em)": {
-    bottom: "3.7%",
     height: "33px",
   },
 });
@@ -689,6 +753,7 @@ export const Homepage_MonthOrYearPlan = styled("div")({
   },
   "@media (max-width : 29.4em)": {
     width: "97%",
+    height: "70px",
   },
 });
 
