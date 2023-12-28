@@ -267,9 +267,10 @@ export const AddOns_InnerDiv_CheckInput = styled("input")({
   height: "40%",
   borderRadius: "5px",
   cursor: "pointer",
-  "@media (max-width : 23.75em)": {
-    height: "60%",
-    padding: "60%",
+  "@media (max-width : 29.75em)": {
+    height: "100%",
+
+    padding: "100%",
   },
 });
 
@@ -388,11 +389,15 @@ export const FinsihUpItemDiv = styled("div")({
 });
 
 export const AddOns_InnerDiv_CheckDiv = styled("div")({
-  width: "35px",
-  height: "35px",
+  width: "45px",
+  height: "45px",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  "@media (max-width : 29.75em)": {
+    width: "55px",
+    height: "55px",
+  },
 });
 
 export const Homepage_SelectPlan_Div = styled("div")({
